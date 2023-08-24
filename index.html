@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="script.js" defer></script>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-title">
+                <div class="header-wrapper">
+                    <div class="header-left">
+                        <h1>Les histoires de Paco</h1>
+                        <h2>Dans la forêt des rêves</h2>
+                    </div>
+                    <div class="header-right">
+                        <img src="image/icon/ecureuil.png" alt="Une image d'une tete d'écureil en dessin">
+                    </div>
+                </div>
+            </div>
+            <div class="header-banner">
+              <h2>Bienvenue à toi jeune voyageur de la forêt des rêves.</h2>
+              <h2>Découvres les histoires de Paco et de ses amis.</h2>
+            </div>
+        </header>
+      <main>
+          <div class="overlay-radio">
+            <div class="radio-wrapper">
+                <div class="radio-btn">
+                  <img id="pause" src="image/icon/pause.png" alt="icone pause">
+                  <img id="arret" src="image/icon/arret.png" alt="icone stop">
+                  <img id="lecture" src="image/icon/jouer.png" alt="icone lecture">
+                  <img id="retour-rapide" src="image/icon/retour-rapide.png" alt="icone retour rapide">
+                  <img id="avance-rapide" src="image/icon/avance-rapide.png" alt="icone avance rapide">
+                  <img id="son" src="image/icon/du-son.png" alt="icone son">
+                </div>
+                <div class="radio-song">
+                  <audio src="musique/Doomed_Preview.mp3" preload="metadata"></audio>
+                  <input type="range" id="track" min="0" value="0">
+                  <span id="elapsed-time">0:00</span> <span id="track-time">1:00</span>
+                  <input type="range" id="volume" min="0" max="1" value="1" step="0.1">
+
+                </div>
+            </div>
+          </div>
+          <section class="activités">
+              <div class="activités-title">
+                <h2>Choisis une activité pour t'amuser</h2>
+              </div>
+              <div class="activités-wrapper">
+
+                  <div class="activités-card">
+                      <img src="image/icon/livre1.png" alt="une image de bibliotheque">
+                      <p>La bibliothèque</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/livre2.png" alt="une image d'un stylo sur un livre">
+                      <p>Créér ton histoire</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/radio.png" alt="une image de radio">
+                      <p>Musique</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/livre-audio2.png" alt="une image de bibliotheque">
+                      <p>Ecouter une histoire</p>
+                   </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/agenda.png" alt="une image de bibliotheque">
+                      <p>Histoires favorites</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/jeu-video.png" alt="une image de bibliotheque">
+                      <p>Jeux</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/livre-audio1.png" alt="une image de bibliotheque">
+                      <p>Lire une histoire</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/conte-de-fee.png" alt="une image de bibliotheque">
+                      <p>Coloriages</p>
+                  </div>
+
+                  <div class="activités-card">
+                      <img src="image/icon/la-gestion-du-materiel.png" alt="une image de bibliotheque">
+                      <p>Paramètres</p>
+                  </div>
+
+            </div>
+          </section>
+
+
+
+          <div>
+              <h2>Une autre div</h2>
+              <p>Un autre texte</p>
+          </div>
+      </main>
+
+    <footer>
+        @Copyright : Enkiduh
+    </footer>
+    </body>
+  </html>
