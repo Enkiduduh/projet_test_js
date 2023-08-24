@@ -39,11 +39,11 @@
                   <img id="son" src="image/icon/du-son.png" alt="icone son">
                 </div>
                 <div class="radio-song">
-                  <audio src="musique/Doomed_Preview.mp3" preload="metadata"></audio>
+                  <audio  preload=”metadata” loop src="musique/Doomed_Preview.mp3" ></audio>
                   <input type="range" id="track" min="0" value="0">
                   <span id="elapsed-time">0:00</span> <span id="track-time">1:00</span>
                   <input type="range" id="volume" min="0" max="1" value="1" step="0.1">
-
+                  <button onclick="buildDuration()">Try it</button>
                 </div>
             </div>
           </div>
