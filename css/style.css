@@ -120,7 +120,7 @@ main .overlay-radio {
   position: absolute;
   overflow: hidden;
   width: 60px;
-  height: 220px;
+  height: 300px;
   background: rgba(153, 50, 204, 0.4);
   border: 1px solid black;
   border-top-right-radius: 60px;
@@ -140,19 +140,33 @@ main .overlay-radio:hover .radio-wrapper {
   justify-content: flex-start;
   align-items: center;
   margin: auto auto;
+  padding-top: 25px;
 }
 main .overlay-radio:hover .radio-wrapper .radio-song {
   width: 180px;
   height: 50px;
-  border: 1px solid black;
-  border-radius: 50px;
 }
 
 .radio-btn {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2px;
+  position: relative;
 }
 .radio-btn img {
   width: 50px;
+}
+
+.volume_selector {
+  display: flex;
+  flex-direction: row;
+}
+.volume_selector input {
+  width: 11 0px;
+  margin-right: 10px;
+}
+
+#son-muted {
+  display: none;
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
